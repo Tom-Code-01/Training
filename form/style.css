@@ -1,0 +1,46 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url('background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    
+}
+
+h3{
+
+    padding-left: 60px;
+    font-size: larger;
+}
+.container{
+    background-color: rgba(245, 245, 245, 0.781);
+    padding: 75px;
+    border-radius: 35px;
+    margin-top: 100px;
+}
+
+.name-1,.name-2,.email-1,.pass-1,.pass-2,.num-1,.date{
+ height: 30px;
+ border-radius: 9px;
+ border-color: black;
+
+}
+
+.action{
+    padding-left: 100px;
+}
+.action-1{
+    padding: 6px;
+    border-radius: 6px;
+    margin-right: 16px;
+
+}
