@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Form</title>
+</head>
+
+<body>
+
+
+  
+    <form>
+        <h1>Registration Form</h1>
+        <div class="container">
+            <div style=" background-color: rgba(43, 102, 139, 0.537); height: 30px;width: 16vw;     border-radius: 10px; ">
+            <h3>Login into Form</h3>
+            </div><br><br>
+            <label for="name-1">Name:</label>
+            <input type="text" class="name-1" placeholder="Enter your First name" required />
+
+            <label>Initial:</label>
+            <input type="text" class="name-1" size="1" required>
+            <br>
+            <br>
+
+            <label >Email:</label>
+            <input type="email" class="email-1" placeholder="Enter your Email" required />
+
+            <br>
+            <br>
+
+            <label>Phone number:</label>
+            <input type="text" class="num-1" size="1" value="+91" />
+            <input type="text" class="num-1" placeholder="Enter the 10 digit number" required/>
+            <br>
+            <br>
+
+            <label>DOB:</label>
+            <input type="date" class="date" required/>
+            <br><br>
+            <label>Gender:</label>
+            <input type="radio" class="gen-1" name="gender"><label>Male</label>
+            <input type="radio" class="gen2" name="gender"><label>Female</label>
+            <br>
+            <br>
+
+            <label>Password:</label>
+            <input type="password" class="pass-1" placeholder="Enter your password" required/>
+            <br>
+            <br>
+
+            <label>Confirm Password:</label>
+            <input type="password" class="pass-2" placeholder="Confirm your password" required/>
+            <br>
+            <br>
+            <div class="action">
+                <input type="submit" class="action-1" value="Submit" />
+                <input type="button" class="action-1" value="Cancel" />
+            </div>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
